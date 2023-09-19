@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Laney Tilgner" />
     <meta
       name="description"
       content="This is my portfolio site and contains information about who I am, content on previous projects I've worked on, as well as links to visit my linkedin acount, ways to contact me and a downloadable resume."
     />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imprima&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Laney's Portfolio</title>
   </head>
 
   <body>
+    <a href="laneybrokaw@gmail.com" class="button contact">Send me an email</a>
+    <a href="#" class="primary-button">Read more</a>
     <header>
+      <section id="hero"></section>
       <div>
-         <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
-        <picture></picture>
       </div>
     </header>
     <main>
@@ -28,20 +44,21 @@
         <div>
           <h1>Home Page</h1>
           <img
-          src="https://via.placeholder.com/150x50?text=my-cool-logo"
-          alt="Your Name"
-        />
-        <a href="files/RESUME (1).pdf" download>Download my CV</a>
-       
-          <div>Hey, My name is Laney Tilgner and welcome to my portfolio page. I am a
-          UX/UI designer crafting user centered designs that prioritize
-          simplicity.</div>
+            src="https://via.placeholder.com/150x50?text=my-cool-logo"
+            alt="Your Name"
+          />
+          <a href="files/RESUME (1).pdf" download>Download my CV</a>
+
+          <div>
+            Hey, My name is Laney Tilgner and welcome to my portfolio page. I am
+            a UX/UI designer crafting user centered designs that prioritize
+            simplicity.
+          </div>
         </div>
-        <p>
-          
-        </p>
+        <p></p>
+        <section id="work"></section>
         <div>
-          <div>work/projects</div>
+          <h2>work/projects</h2>
         </div>
         <picture>
           <source
@@ -54,12 +71,14 @@
 
       <div>
         <h3>Olive Health</h3>
-        <p>The Olive health app is an easy to use app for helping users better 
-          their health. While designing this app I learned a lot 
+        <p>
+          The Olive health app is an easy to use app for helping users better
+          their health. While designing this app I learned a lot
         </p>
         <a href="">Read more</a>
       </div>
     </main>
+    <section id="contact"></section>
     <footer id="contact">
       <a href="#contact">Contact</a>
       <h2>get in touch</h2>
@@ -71,19 +90,19 @@
       <a herf="">Laneybrokaw@gmail.com</a>
 
       <div>
-        <!--Social Media Layout and Placeholders-->
         <a href="LINKEDIN-URL" target="_blank">
-            <img src="https://www.linkedin.com/in/laney-brokaw-55160a250/">
+          <img src="https://www.linkedin.com/in/laney-brokaw-55160a250/" />
         </a>
         <a href="TWITTER-URL" target="_blank">
-            <img src="http://via.placeholder.com/32x32">
+          <img src="http://via.placeholder.com/32x32" />
         </a>
         <a href="ANOTHER-SOCIAL-LINK">
-            <img src="http://via.placeholder.com/32x32">
+          <img src="http://via.placeholder.com/32x32" />
         </a>
         <a href="ANOTHER-SOCIAL-LINK">
-            <img src="http://via.placeholder.com/32x32">
+          <img src="http://via.placeholder.com/32x32" />
         </a>
+      </div>
     </footer>
   </body>
 </html>
