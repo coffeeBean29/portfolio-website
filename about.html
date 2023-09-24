@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Laney Tilgner" />
     <meta
       name="description"
       content="This is my portfolio site and contains information about who I am, content on previous projects I've worked on, as well as links to visit my linkedin acount, ways to contact me and a downloadable resume."
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -19,9 +26,20 @@
   </head>
 
   <body>
+    <header class="css-box-shadow">
+      <nav id="nav">
+        <img class="logo" src="img/laney.logo.jpg" alt="Logo" />
+        <ul class="list">
+          <li><a href="index.html">home</a></li>
+          <li><a href="work.html">projects/work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <picture></picture>
       <h1>About page</h1>
+      <img src="img/Laney1x.jpg" />
       <h4>Where do you live?</h4>
       <p>Salem Oregon</p>
       <h4>Who is Laney?</h4>
@@ -63,6 +81,30 @@
         <li>html/css</li>
       </ul>
     </main>
-    <footer></footer>
+    <footer class="container" id="contact">
+      <h2>get in touch</h2>
+      <a href="#contact">Contact</a>
+      <a href="laneybrokaw@gmail.com" class="button contact"
+        >Send me an email</a
+      >
+      <p>
+        Do you like my work and want to discuss opportunities? Please get in
+        touch. Call me at 503-871-8459. Prefer sending an email?
+      </p>
+      <div></div>
+      <a herf="">Laneybrokaw@gmail.com</a>
+
+      <div>
+        <a
+          href="https://www.linkedin.com/in/laney-brokaw-55160a250/"
+          target="_blank"
+        >
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://twitter.com/BrokawLane38863" target="_blank">
+          <i class="ph ph-twitter-logo"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

@@ -4,9 +4,6 @@ primary(off white):#F0F8FF
 secondary(teal):#008080
 */
 body {
-  font-family: "imprima", sans-serif;
-}
-body {
   background-color: #ffffff;
   font-family: "imprima", sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
@@ -150,4 +147,40 @@ nav > ul > li > a {
   box-shadow: 0 17px 35px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 17px 35px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 17px 35px rgba(0, 0, 0, 0.2);
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+  }
+  nav {
+    width: auto;
+    margin-top: 4px;
+  }
+  .list {
+    float: right;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+body {
+  font-size: 18px;
+}
+.logo {
+  width: 50px;
+}
+.olive-title > img {
+  float: left;
+  width: 36px;
+  padding-right: 21px;
 }
