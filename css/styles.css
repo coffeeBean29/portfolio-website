@@ -184,3 +184,6 @@ body {
   width: 36px;
   padding-right: 21px;
 }
+* {
+  box-sizing: border-box;
+}
