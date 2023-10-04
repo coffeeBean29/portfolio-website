@@ -41,13 +41,13 @@
     <main>
       <h1>About page</h1>
       <div class="row">
-        <div class="col-md-6 col-lg-7">
-          <picture>
-            <source srcset="./img/laney.pdf1x.jpg" media="(max-width:767px)" />
-            <img src="./img/laney.pdf2x.jpg" alt="My Image" />
-          </picture>
-        </div>
+        <div class="column col-md-6 col-lg-7">left column</div>
+        <div class="column col-md-6 col-lg-5">right column</div>
       </div>
+      <picture>
+        <source srcset="./img/laney.pdf1x.jpg" media="(max-width:767px)" />
+        <img src="./img/laney.pdf2x.jpg" alt="My Image" />
+      </picture>
       <h2>Where do you live?</h2>
       <p>Salem Oregon</p>
       <h2>Who is Laney?</h2>
@@ -76,18 +76,24 @@
         competitive analysis, user research, Information architecture, ect. I am
         now expanding these skills into front-end development.
       </p>
-      <ul>
-        <h4>Skills</h4>
-        <li>Wire-framing</li>
-        <li>Prototyping</li>
-        <li>Mobile first design</li>
-      </ul>
-      <ul>
-        <h4>Tools</h4>
-        <li>Figma</li>
-        <li>Adobe products</li>
-        <li>html/css</li>
-      </ul>
+      <div class="row">
+        <div class="column col-md-6 col-lg-7">
+          <ul>
+            <h4>Skills</h4>
+            <li>Wire-framing</li>
+            <li>Prototyping</li>
+            <li>Mobile first design</li>
+          </ul>
+        </div>
+        <div class="column col-md-6 col-lg-5">
+          <ul>
+            <h4>Tools</h4>
+            <li>Figma</li>
+            <li>Adobe products</li>
+            <li>html/css</li>
+          </ul>
+        </div>
+      </div>
     </main>
     <footer class="container" id="contact">
       <h2>get in touch</h2>
