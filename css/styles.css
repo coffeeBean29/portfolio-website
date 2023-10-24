@@ -215,7 +215,7 @@ body {
 }
 .olive-title > img {
   float: left;
-  width: 36px;
+  width: 100px;
   padding-right: 21px;
 }
 * {
@@ -295,7 +295,7 @@ body {
   position: absolute;
   right: 0;
   top: 2px;
-  font-size: 20px;
+  font-size: 50px;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
