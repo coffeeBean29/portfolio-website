@@ -218,6 +218,7 @@ body {
   width: 100px;
   padding-right: 21px;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -229,7 +230,7 @@ body {
 }
 .button {
   display: inline-block;
-  background-color: #ff7f50;
+  background-color: #fbfbfb;
   color: white;
   font-weight: 400;
   text-decoration: none;
