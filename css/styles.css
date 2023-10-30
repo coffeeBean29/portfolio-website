@@ -286,6 +286,14 @@ body {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.navtoggle li {
+  display: none;
+}
+@media (max-width: 639px) {
+  .navtoggle li:last-child {
+    display: initial;
+  }
+}
 .navtoggle li .icon {
   position: absolute;
   right: 0;
